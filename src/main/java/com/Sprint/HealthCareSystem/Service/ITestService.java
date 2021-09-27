@@ -1,10 +1,10 @@
-package com.Sprint.HealthCareSystem.service;
+package com.Sprint.HealthCareSystem.Service;
 
 
 import java.util.List;
-import com.Sprint.HealthCareSystem.entities.DiagnosticTest;
-import com.Sprint.HealthCareSystem.exception.ConflictException;
-import com.Sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
+import com.Sprint.HealthCareSystem.Entity.DiagnosticTest;
+import com.Sprint.HealthCareSystem.Exceptions.ConflictException;
+import com.Sprint.HealthCareSystem.Exceptions.DataNotFoundInDataBase;
 
 public interface ITestService {
 
