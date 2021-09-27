@@ -1,4 +1,4 @@
-package com.Sprint.HealthCareSystem.entities;
+package com.Sprint.HealthCareSystem.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
