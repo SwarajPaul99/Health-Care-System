@@ -1,16 +1,16 @@
-package com.sprint.hcs.service;
+package com.Sprint.HealthCareSystem.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sprint.hcs.dao.UserRepository;
-import com.sprint.hcs.dao.ManualQueries.QueryClassPersisitContext;
-import com.sprint.hcs.entities.User;
-import com.sprint.hcs.exception.UserCreationError;
-import com.sprint.hcs.exception.UserNotFoundException;
-import com.sprint.hcs.validators.InputValidator;
+import com.Sprint.HealthCareSystem.Repository.UserRepository;
+import com.Sprint.HealthCareSystem.Repository.ManualQueries.QueryClassPersisitContext;
+import com.Sprint.HealthCareSystem.entities.User;
+import com.Sprint.HealthCareSystem.exception.UserCreationError;
+import com.Sprint.HealthCareSystem.exception.UserNotFoundException;
+import com.Sprint.HealthCareSystem.validators.InputValidator;
 
 @Service
 public class IUserServiceImpl implements IUserService {
