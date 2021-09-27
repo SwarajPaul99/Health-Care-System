@@ -1,4 +1,4 @@
-package com.sprint.hcs.entities;
+package com.Sprint.HealthCareSystem.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
