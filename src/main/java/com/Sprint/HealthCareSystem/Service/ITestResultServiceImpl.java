@@ -1,4 +1,4 @@
-package com.sprint.hcs.service;
+package com.Sprint.HealthCareSystem.service;
 
 
 import java.util.List;
@@ -6,13 +6,13 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sprint.hcs.dao.ITestResultRepository;
-import com.sprint.hcs.dao.ManualQueries.QueryClassPersisitContext;
-import com.sprint.hcs.entities.Patient;
-import com.sprint.hcs.entities.TestResult;
-import com.sprint.hcs.exception.DataAlreadyExists;
-import com.sprint.hcs.exception.DataNotFoundInDataBase;
-import com.sprint.hcs.exception.TestResultNotFoundException;
+import com.Sprint.HealthCareSystem.Repository.ITestResultRepository;
+import com.Sprint.HealthCareSystem.Repository.ManualQueries.QueryClassPersisitContext;
+import com.Sprint.HealthCareSystem.entities.Patient;
+import com.Sprint.HealthCareSystem.entities.TestResult;
+import com.Sprint.HealthCareSystem.exception.DataAlreadyExists;
+import com.Sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
+import com.Sprint.HealthCareSystem.exception.TestResultNotFoundException;
 
 @Service
 public class ITestResultServiceImpl implements ITestResultService {
