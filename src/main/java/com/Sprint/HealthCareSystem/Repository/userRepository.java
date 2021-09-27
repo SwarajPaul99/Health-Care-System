@@ -1,8 +1,8 @@
-package com.sprint.hcs.dao;
+package com.Sprint.HealthCareSystem.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.sprint.hcs.entities.User;
+import com.Sprint.HealthCareSystem.entities.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
