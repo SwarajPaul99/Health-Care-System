@@ -1,14 +1,14 @@
-package com.Sprint.HealthCareSystem.service;
+package com.Sprint.HealthCareSystem.Service;
 
 import java.util.List;
 
 
 
-import com.Sprint.HealthCareSystem.entities.Patient;
-import com.Sprint.HealthCareSystem.entities.TestResult;
-import com.Sprint.HealthCareSystem.exception.DataAlreadyExists;
-import com.Sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
-import com.Sprint.HealthCareSystem.exception.TestResultNotFoundException;
+import com.Sprint.HealthCareSystem.Entity.Patient;
+import com.Sprint.HealthCareSystem.Entity.TestResult;
+import com.Sprint.HealthCareSystem.Exceptions.DataAlreadyExists;
+import com.Sprint.HealthCareSystem.Exceptions.DataNotFoundInDataBase;
+import com.Sprint.HealthCareSystem.Exceptions.TestResultNotFoundException;
 
 public interface ITestResultService {
 
