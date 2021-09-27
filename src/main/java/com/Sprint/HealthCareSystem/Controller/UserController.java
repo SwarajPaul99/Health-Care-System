@@ -1,7 +1,7 @@
-package com.example.Healthcaresystem.controller;
+package com.sprint.healthcaresystem.controller;
 
-import com.example.Healthcaresystem.model.User;
-import com.example.Healthcaresystem.service.UserService;
+import com.sprint.healthcaresystem.model.User;
+import com.sprint.healthcaresystem.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
