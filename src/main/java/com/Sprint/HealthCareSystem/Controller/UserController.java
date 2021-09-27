@@ -1,4 +1,4 @@
-package com.Sprint.HealthCareSystem.controller;
+package com.Sprint.HealthCareSystem.Controller;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.Sprint.HealthCareSystem.entities.User;
-import com.Sprint.HealthCareSystem.exception.ForBiddenException;
-import com.Sprint.HealthCareSystem.exception.UserCreationError;
-import com.Sprint.HealthCareSystem.exception.UserNotFoundException;
-import com.Sprint.HealthCareSystem.service.IUserService;
+import com.Sprint.HealthCareSystem.Entity.User;
+import com.Sprint.HealthCareSystem.Exceptions.ForBiddenException;
+import com.Sprint.HealthCareSystem.Exceptions.UserCreationError;
+import com.Sprint.HealthCareSystem.Exceptions.UserNotFoundException;
+import com.Sprint.HealthCareSystem.Service.IUserService;
 
 @RestController
 @RequestMapping("/user")
