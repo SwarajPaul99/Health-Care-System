@@ -1,10 +1,10 @@
-package com.Sprint.HealthCareSystem.service;
+package com.Sprint.HealthCareSystem.Service;
 
 import java.util.List;
 
-import com.Sprint.HealthCareSystem.entities.User;
-import com.Sprint.HealthCareSystem.exception.UserCreationError;
-import com.Sprint.HealthCareSystem.exception.UserNotFoundException;
+import com.Sprint.HealthCareSystem.Entity.User;
+import com.Sprint.HealthCareSystem.Exceptions.UserCreationError;
+import com.Sprint.HealthCareSystem.Exceptions.UserNotFoundException;
 
 
 public interface IUserService {
