@@ -1,4 +1,4 @@
-package com.sprint.hcs.exception;
+package com.Sprint.HealthCareSystem.exception;
 
 public class UserNotFoundException extends Exception {
 
