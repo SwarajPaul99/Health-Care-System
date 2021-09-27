@@ -1,6 +1,6 @@
-package com.example.Healthcaresystem.service;
+package com.print.healthcaresystem.service;
 
-import com.example.Healthcaresystem.model.User;
+import com.sprint.healthcaresystem.model.User;
 import org.springframework.stereotype.Service;
 
 @Service
