@@ -1,4 +1,4 @@
-package com.Sprint.HealthCareSystem.service;
+package com.Sprint.HealthCareSystem.Service;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.Sprint.HealthCareSystem.Repository.UserRepository;
 import com.Sprint.HealthCareSystem.Repository.ManualQueries.QueryClassPersisitContext;
-import com.Sprint.HealthCareSystem.entities.User;
-import com.Sprint.HealthCareSystem.exception.UserCreationError;
-import com.Sprint.HealthCareSystem.exception.UserNotFoundException;
-import com.Sprint.HealthCareSystem.validators.InputValidator;
+import com.Sprint.HealthCareSystem.Entity.User;
+import com.Sprint.HealthCareSystem.Exceptions.UserCreationError;
+import com.Sprint.HealthCareSystem.Exceptions.UserNotFoundException;
+import com.Sprint.HealthCareSystem.Validators.InputValidator;
 
 @Service
 public class IUserServiceImpl implements IUserService {
