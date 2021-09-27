@@ -1,16 +1,16 @@
-package com.sprint.hcs.service;
+package com.Sprint.HealthCareSystem.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sprint.hcs.dao.IDiagnosticCenterRepositoryInt;
-import com.sprint.hcs.dao.TestRepository;
-import com.sprint.hcs.entities.DiagnosticCenter;
-import com.sprint.hcs.entities.DiagnosticTest;
-import com.sprint.hcs.exception.ConflictException;
-import com.sprint.hcs.exception.DataNotFoundInDataBase;
+import com.Sprint.HealthCareSystem.Repository.IDiagnosticCenterRepositoryInt;
+import com.Sprint.HealthCareSystem.Repository.TestRepository;
+import com.Sprint.HealthCareSystem.entities.DiagnosticCenter;
+import com.Sprint.HealthCareSystem.entities.DiagnosticTest;
+import com.Sprint.HealthCareSystem.exception.ConflictException;
+import com.Sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
 @Service
 public class ITestServiceImpl implements ITestService {
 
