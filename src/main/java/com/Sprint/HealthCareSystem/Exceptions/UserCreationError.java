@@ -1,4 +1,4 @@
-package com.Sprint.HealthCareSystem.exception;
+package com.Sprint.HealthCareSystem.Exceptions;
 
 public class UserCreationError extends Exception {
 
