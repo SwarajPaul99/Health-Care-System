@@ -1,6 +1,6 @@
-package com.example.Healthcaresystem.service;
+package com.sprint.healthcaresystem.service;
 
-import com.example.Healthcaresystem.model.User;
+import com.sprint.healthcaresystem.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
