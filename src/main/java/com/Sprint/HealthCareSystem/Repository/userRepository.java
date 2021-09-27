@@ -1,6 +1,6 @@
-package com.example.Healthcaresystem.repository;
+package com.sprint.healthcaresystem.repository;
 
-import com.example.Healthcaresystem.model.User;
+import com.sprint.healthcaresystem.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
