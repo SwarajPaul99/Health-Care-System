@@ -1,4 +1,4 @@
-package com.sprint.HealthCareSystem.controller;
+package com.Sprint.HealthCareSystem.controller;
 
 import java.util.List;
 
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sprint.HealthCareSystem.entities.DiagnosticTest;
-import com.sprint.HealthCareSystem.exception.ConflictException;
-import com.sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
-import com.sprint.HealthCareSystem.exception.ForBiddenException;
-import com.sprint.HealthCareSystem.service.ITestService;
+import com.Sprint.HealthCareSystem.entities.DiagnosticTest;
+import com.Sprint.HealthCareSystem.exception.ConflictException;
+import com.Sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
+import com.Sprint.HealthCareSystem.exception.ForBiddenException;
+import com.Sprint.HealthCareSystem.service.ITestService;
 @RestController
 @RequestMapping("/Test")
 public class TestController {
