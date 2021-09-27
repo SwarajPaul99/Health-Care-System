@@ -1,4 +1,4 @@
-package com.Sprint.HealthCareSystem.service;
+package com.Sprint.HealthCareSystem.Service;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.Sprint.HealthCareSystem.Repository.IDiagnosticCenterRepositoryInt;
 import com.Sprint.HealthCareSystem.Repository.TestRepository;
-import com.Sprint.HealthCareSystem.entities.DiagnosticCenter;
-import com.Sprint.HealthCareSystem.entities.DiagnosticTest;
-import com.Sprint.HealthCareSystem.exception.ConflictException;
-import com.Sprint.HealthCareSystem.exception.DataNotFoundInDataBase;
+import com.Sprint.HealthCareSystem.Entity.DiagnosticCenter;
+import com.Sprint.HealthCareSystem.Entity.DiagnosticTest;
+import com.Sprint.HealthCareSystem.Exceptions.ConflictException;
+import com.Sprint.HealthCareSystem.Exceptions.DataNotFoundInDataBase;
 @Service
 public class ITestServiceImpl implements ITestService {
 
